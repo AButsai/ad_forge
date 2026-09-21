@@ -7,19 +7,15 @@ export function MainSection() {
     <section className="border-b border-[color:var(--line)] py-20 sm:py-28">
       <Container>
         <div className="mx-auto max-w-3xl text-center">
-          <p className="mb-4 text-sm font-medium tracking-wide text-[color:var(--accent)] uppercase">
-            {siteConfig.tagline}
-          </p>
-          <h1 className="text-balance text-4xl font-semibold sm:text-5xl">
-            Build one catalog campaign. Launch it everywhere it needs to run.
-          </h1>
+          <h1 className="text-balance text-4xl font-semibold sm:text-5xl">{siteConfig.tagline}</h1>
           <p className="mt-6 text-pretty text-base text-[color:var(--ink-soft)] sm:text-lg">
             {siteConfig.description}
           </p>
+          <p className="mt-3 text-sm text-[color:var(--ink-soft)]">{siteConfig.subDescription}</p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
-            <Button href={`mailto:${siteConfig.contactEmail}`}>Get in touch</Button>
-            <Button href="/#how-it-works" variant="ghost">
-              How it works
+            <Button href="/#how-it-works">Get Started</Button>
+            <Button href={`mailto:${siteConfig.contactEmail}`} variant="ghost">
+              Contact Us
             </Button>
           </div>
         </div>

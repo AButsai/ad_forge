@@ -1,8 +1,14 @@
 import { Header } from "./Header";
 import { MainSection } from "./MainSection";
-import { FeaturesSection } from "./FeaturesSection";
+import { CampaignManagementSection } from "./CampaignManagementSection";
+import { WorkflowSection } from "./WorkflowSection";
+import { CatalogsSection } from "./CatalogsSection";
+import { PageIdentitySection } from "./PageIdentitySection";
+import { PerformanceSection } from "./PerformanceSection";
 import { HowItWorksSection } from "./HowItWorksSection";
-import { WhoSection } from "./WhoSection";
+import { SecuritySection } from "./SecuritySection";
+import { FAQSection } from "./FAQSection";
+import { ContactSection } from "./ContactSection";
 import { Footer } from "./Footer";
 
 export function HomePage() {
@@ -11,9 +17,15 @@ export function HomePage() {
       <Header />
       <main>
         <MainSection />
-        <FeaturesSection />
+        <CampaignManagementSection />
+        <WorkflowSection />
+        <CatalogsSection />
+        <PageIdentitySection />
+        <PerformanceSection />
         <HowItWorksSection />
-        <WhoSection />
+        <SecuritySection />
+        <FAQSection />
+        <ContactSection />
       </main>
       <Footer />
     </>

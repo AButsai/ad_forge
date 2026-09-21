@@ -16,11 +16,8 @@ export function Header() {
           <Link href="/#how-it-works" className="hover:text-[color:var(--foreground)]">
             How it works
           </Link>
-          <Link href="/privacy" className="hover:text-[color:var(--foreground)]">
-            Privacy
-          </Link>
-          <Link href="/terms" className="hover:text-[color:var(--foreground)]">
-            Terms
+          <Link href="/#contact" className="hover:text-[color:var(--foreground)]">
+            Contact
           </Link>
         </nav>
       </Container>
