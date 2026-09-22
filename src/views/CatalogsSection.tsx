@@ -5,9 +5,8 @@ export function CatalogsSection() {
   return (
     <Section className="border-t border-[color:var(--line)]">
       <TitleSection
-        eyebrow="Product Catalogs"
-        title="Use existing Product Catalogs available to your authorized advertising resources when configuring supported advertising campaigns."
-        description="The platform does not create or manage product catalogs. Catalogs remain managed through Meta's business tools."
+        title="Product Catalogs"
+        description="Use existing Product Catalogs available to your authorized advertising resources when configuring supported advertising campaigns. AdForge does not create or manage Product Catalogs. Catalogs remain managed through Meta's business tools."
       />
     </Section>
   );

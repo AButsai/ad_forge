@@ -6,9 +6,8 @@ export function WorkflowSection() {
   return (
     <Section className="border-t border-[color:var(--line)]">
       <TitleSection
-        eyebrow="Structured Campaign Workflows"
-        title="Streamline repetitive campaign configuration tasks with structured workflows and spreadsheet-based campaign setup."
-        description="Prepare campaign configurations using structured Excel or Google Sheets templates, import them into the platform, validate the data and review campaign settings before publication."
+        title="Structured Campaign Configuration"
+        description="Prepare campaign configurations using Excel or Google Sheets templates. Import structured campaign data, validate configuration fields, review campaign settings, and publish approved campaigns through authorized Meta advertising resources."
       />
       <div className="mt-12 flex flex-wrap items-center justify-center gap-3">
         {workflowSteps.map((step, index) => (

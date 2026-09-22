@@ -2,19 +2,15 @@ export const siteConfig = {
   name: "AdForge",
   tagline: "Simplify Your Facebook Advertising Workflow",
   description:
-    "Create, manage and monitor Facebook advertising campaigns from one centralized platform using Meta's Marketing API.",
-  subDescription: "Built for authorized advertising teams and businesses.",
-  // TODO (Сеньор): replace with the real domain once it's registered — this is only a
-  // placeholder used for metadata/canonical URLs during local development.
-  url: "https://www.adforge.example",
-  // TODO (Сеньор): replace with a real support mailbox on your own domain before submitting
-  // this to Meta for App Review — it appears on the Privacy Policy/Terms pages and the footer.
-  contactEmail: "support@yourdomain.com",
-  // TODO (Сеньор): replace with your legal entity name EXACTLY as it appears on your business
-  // verification documents (the EDR extract) — Meta checks this matches Business Manager
-  // settings and the submitted document letter-for-letter.
-  legalEntityName: "Your Company",
-  legalAddress: "[Your registered business address — as in your EDR extract]",
+    "Create, review, publish, and monitor advertising campaigns through one centralized workspace powered by Meta's Marketing API.",
+  subDescription:
+    "AdForge helps authorized businesses and advertising teams manage campaign configuration and performance across their connected advertising resources.",
+  url: "https://ad-forge-pi.vercel.app",
+  contactEmail: "s.butsay@gmail.com",
+  // Must match the name confirmed by official business verification documents, letter-for-
+  // letter — do not append "individual entrepreneur"/"sole proprietor"/"FOP" or similar unless
+  // that status and wording is itself confirmed by those documents (Сеньор, 2026-09-22).
+  legalEntityName: "Буцай Олександр Геннадійович",
 };
 
 export const campaignManagementCards = [
@@ -24,15 +20,15 @@ export const campaignManagementCards = [
   },
   {
     title: "Ad Sets",
-    description: "Configure budgets, schedules, targeting and optimization settings.",
+    description: "Configure budgets, schedules, targeting, and optimization settings.",
   },
   {
     title: "Ads & Creatives",
-    description: "Create advertising creatives and associate them with your campaigns and ad sets.",
+    description: "Create advertising creatives and associate them with campaigns and ad sets.",
   },
 ];
 
-export const workflowSteps = ["Spreadsheet", "Import", "Validate", "Review", "Publish"];
+export const workflowSteps = ["Prepare", "Import", "Validate", "Review", "Publish"];
 
 export const performanceItems = [
   "Campaign performance",

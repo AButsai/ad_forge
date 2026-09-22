@@ -11,7 +11,9 @@ export function MainSection() {
           <p className="mt-6 text-pretty text-base text-[color:var(--ink-soft)] sm:text-lg">
             {siteConfig.description}
           </p>
-          <p className="mt-3 text-sm text-[color:var(--ink-soft)]">{siteConfig.subDescription}</p>
+          <p className="mt-4 text-pretty text-base text-[color:var(--ink-soft)] sm:text-lg">
+            {siteConfig.subDescription}
+          </p>
           <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
             <Button href="/#how-it-works">Get Started</Button>
             <Button href={`mailto:${siteConfig.contactEmail}`} variant="ghost">

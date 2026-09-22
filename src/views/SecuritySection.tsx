@@ -4,14 +4,22 @@ import { TitleSection } from "@/components/TitleSection";
 export function SecuritySection() {
   return (
     <Section className="border-t border-[color:var(--line)]">
-      <TitleSection eyebrow="Security & Access" title="Access is controlled and credentials stay protected." />
-      <div className="mx-auto mt-8 flex max-w-xl flex-col gap-4 text-center text-sm text-[color:var(--ink-soft)]">
-        <p>Access to advertising resources is controlled through authorized Meta Business assets and permissions.</p>
-        <p>Sensitive credentials are securely stored on our backend and are not exposed to end users.</p>
-        <p>
-          The platform is designed to work only with advertising resources that the connected business integration
-          is authorized to access.
-        </p>
+      <TitleSection title="Security & Access" />
+      <div className="mx-auto mt-10 flex max-w-xl flex-col gap-8">
+        <div>
+          <h3 className="text-base font-semibold">Authorized access to advertising resources</h3>
+          <p className="mt-2 text-sm text-[color:var(--ink-soft)]">
+            AdForge works with advertising resources that users are authorized to access through their connected
+            business integration. Access is limited by the permissions and assets granted to the integration.
+          </p>
+        </div>
+        <div>
+          <h3 className="text-base font-semibold">Credential protection</h3>
+          <p className="mt-2 text-sm text-[color:var(--ink-soft)]">
+            Sensitive credentials are encrypted at rest and are not exposed in the user interface. AdForge does not
+            claim ownership of connected advertising accounts or business assets.
+          </p>
+        </div>
       </div>
     </Section>
   );

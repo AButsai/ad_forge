@@ -7,8 +7,8 @@ export function CampaignManagementSection() {
   return (
     <Section>
       <TitleSection
-        eyebrow="Campaign Management"
-        title="Manage your Facebook advertising workflow from campaign setup to publication."
+        title="Manage campaigns with a structured review workflow"
+        description="Create and configure advertising campaigns, review settings, and publish them through authorized Meta advertising resources."
       />
       <div className="mt-12 grid gap-4 sm:grid-cols-3">
         {campaignManagementCards.map((card) => (
