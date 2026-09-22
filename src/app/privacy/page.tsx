@@ -26,7 +26,7 @@ export default function PrivacyPage() {
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   {siteConfig.name} is used by authorized users and advertising teams to create, configure, review,
-                  publish, and monitor Facebook advertising campaigns through Meta&apos;s Marketing API.
+                  publish, and monitor Facebook advertising campaigns through Meta{"'"}s Marketing API.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Access to {siteConfig.name} is restricted to authorized users. {siteConfig.name} does not provide a
@@ -43,7 +43,7 @@ export default function PrivacyPage() {
                 <ul className="mt-3 list-disc space-y-2 pl-5 text-[color:var(--ink-soft)]">
                   <li>
                     Meta System User access tokens issued for authorized Business Portfolios and used to make
-                    authorized requests to Meta&apos;s Marketing API.
+                    authorized requests to Meta{"'"}s Marketing API.
                   </li>
                   <li>
                     Advertising resource information, including ad accounts, Facebook Pages, Product Catalogs,
@@ -84,7 +84,7 @@ export default function PrivacyPage() {
                 <p className="mt-3 text-[color:var(--ink-soft)]">We do not sell or rent Meta Platform data.</p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   We do not use Meta Platform data for advertising to {siteConfig.name} users or for purposes
-                  unrelated to providing the application&apos;s advertising management functionality.
+                  unrelated to providing the application{"'"}s advertising management functionality.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Meta Platform data is handled in accordance with applicable Meta platform requirements and
@@ -135,7 +135,7 @@ export default function PrivacyPage() {
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Deletion of data stored directly within Meta Ads Manager is controlled by Meta and is subject to
-                  Meta&apos;s own tools and policies.
+                  Meta{"'"}s own tools and policies.
                 </p>
               </section>
 

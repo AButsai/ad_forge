@@ -63,8 +63,8 @@ export default function DataDeletionPage() {
                   products.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
-                  Real Campaigns, Ad Sets, Ads, performance history, Business Portfolio records, and other data
-                  maintained directly by Meta are managed through Meta&apos;s own tools, systems, and policies.
+                  Campaigns, Ad Sets, Ads, performance history, Business Portfolio records, and other data
+                  maintained directly by Meta are managed through Meta{"'"}s own tools, systems, and policies.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   A deletion request submitted to {siteConfig.name} does not automatically delete data stored
@@ -76,7 +76,7 @@ export default function DataDeletionPage() {
                 <h2 className="text-xl font-semibold">4. Processing timeframe</h2>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   We process deletion requests within 30 days after confirming the request and verifying the
-                  requester&apos;s authorization.
+                  requester{"'"}s authorization.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Certain information may be retained where required by law, necessary to resolve disputes, prevent

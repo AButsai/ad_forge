@@ -26,7 +26,7 @@ export default function TermsPage() {
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   {siteConfig.name} is designed to help authorized users and advertising teams generate, configure,
-                  validate, review, publish, and monitor Facebook advertising campaigns through Meta&apos;s Marketing
+                  validate, review, publish, and monitor Facebook advertising campaigns through Meta{"'"}s Marketing
                   API.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
@@ -65,7 +65,7 @@ export default function TermsPage() {
                 <h2 className="text-xl font-semibold">3. Compliance with Meta policies</h2>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Use of {siteConfig.name} must comply at all times with applicable Meta policies and requirements,
-                  including Meta&apos;s Platform Terms, Advertising Standards, and Developer Policies.
+                  including Meta{"'"}s Platform Terms, Advertising Standards, and Developer Policies.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   {siteConfig.name} does not guarantee that a campaign will be approved, delivered, or achieve any
@@ -73,7 +73,7 @@ export default function TermsPage() {
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   Advertising approval, delivery, account status, and performance are determined by Meta and may
-                  depend on factors outside {siteConfig.name}&apos;s control.
+                  depend on factors outside {siteConfig.name}{"'"}s control.
                 </p>
               </section>
 
@@ -109,7 +109,7 @@ export default function TermsPage() {
               <section>
                 <h2 className="text-xl font-semibold">6. No warranty</h2>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
-                  {siteConfig.name} is provided on an &quot;as is&quot; and &quot;as available&quot; basis.
+                  {siteConfig.name} is provided on an {'"'}as is{'"'} and {'"'}as available{'"'} basis.
                 </p>
                 <p className="mt-3 text-[color:var(--ink-soft)]">
                   To the maximum extent permitted by law, we do not guarantee uninterrupted availability,
